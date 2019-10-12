@@ -15,23 +15,13 @@ brew tap homebrew/bundle
 brew bundle
 
 # Make ZSH the default shell environment
-chsh -s $(which zsh)
+# chsh -s $(which zsh)
 
-# Install PHP extensions with PECL
-pecl install memcached imagick
-
-# Install Composer
-curl -sS https://getcomposer.org/installer | php
-mv composer.phar /usr/local/bin/composer
-
-# Install global Composer packages
-/usr/local/bin/composer global require laravel/installer laravel/spark-installer laravel/valet
-
-# Install Laravel Valet
-$HOME/.composer/vendor/bin/valet install
-
-# Install global NPM packages
-npm install --global yarn
+## TODO: Comment in after trying it with first setup
+# Install Oh My Zsh if it isn't already present
+# if [[ ! -d $HOME/oh-my-zsh/ ]]; then
+#  sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+# fi
 
 # Create a Sites directory
 # This is a default directory for macOS user accounts but doesn't comes pre-installed
