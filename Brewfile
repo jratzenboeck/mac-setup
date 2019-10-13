@@ -9,6 +9,7 @@ brew 'coreutils' # Those that come with macOS are outdated
 brew 'httpie'
 brew 'mackup'
 brew 'tree' # List directories in a tree structure
+brew 'tig'
 
 # Development
 brew 'php'
