@@ -69,7 +69,7 @@ ZSH_THEME="robbyrussell"
 HIST_STAMPS="yyyy-mm-dd"
 
 # Would you like to use another custom folder than $ZSH/custom?
-ZSH_CUSTOM=$ZSH/custom
+ZSH_CUSTOM=$DOTFILES/oh-my-zsh/custom
 
 # Which plugins would you like to load?
 # Standard plugins can be found in ~/.oh-my-zsh/plugins/*
@@ -104,7 +104,7 @@ export LANG=en_US.UTF-8
 # For a full list of active aliases, run `alias`.
 #
 
-source $DOTFILES/aliases.zsh
+#source $DOTFILES/aliases.zsh
 
 # Example aliases
 alias zshconfig="vim ~/.zshrc"
