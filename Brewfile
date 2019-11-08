@@ -29,4 +29,5 @@ cask 'transmit'
 cask 'evernote'
 cask 'spotify'
 cask 'iterm2'
-
+cask 'imageoptim'
+cask 'slate'
